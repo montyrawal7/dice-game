@@ -15,7 +15,7 @@ function diceRoll() {
   if (randomNo > randomNo1) {
     document.querySelector("h1").innerHTML= "You won!🥳";
   } else if (randomNo < randomNo1) {
-    document.querySelector("h1").innerHTML= "Oops, the computer!☹️";
+    document.querySelector("h1").innerHTML= "Oops, the computer won!☹️";
   } else {
     document.querySelector("h1").innerHTML= "It's a draw! Try again.😊";
   }
